@@ -1,4 +1,9 @@
 # Insert your python code here
+
+pd.options.display.float_format = '{:,.2f}'.format # Display option to include 2 decimal places on all floats
+pd.set_option('display.max_columns', None) # Display option to show all columns
+pd.set_option('display.max_rows', None) # Display option to show all rows
+
 # INSERT ANSWER FOR QUESTION 1 HERE
 while True:    
     directory = single_input("Please input the directory where the file is located.")
